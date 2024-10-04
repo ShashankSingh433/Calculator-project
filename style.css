@@ -47,3 +47,34 @@ h1{
     font-size: 28px;
     font-family: 'Courier New', Courier, monospace;
 }
+@media (max-width: 768px) {
+    input {
+        font-size: 1.5rem; /* Smaller font on smaller screens */
+        height: 3rem; /* Smaller height */
+    }
+    
+    button {
+        font-size: 1.2rem; /* Smaller font */
+        height: 4rem; /* Smaller height */
+    }
+    
+    h1 {
+        font-size: 1.5rem; /* Smaller heading */
+    }
+}
+
+@media (max-width: 480px) {
+    input {
+        font-size: 1.2rem; /* Even smaller font */
+        height: 2.5rem; /* Smaller height */
+    }
+    
+    button {
+        font-size: 1rem; /* Smaller font */
+        height: 3.5rem; /* Smaller height */
+    }
+    
+    h1 {
+        font-size: 1.2rem; /* Smaller heading */
+    }
+}
