@@ -54,3 +54,18 @@ h1{
         font-size: 1.2rem; /* Smaller heading */
     }
 }
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem; /* Adjusted font size for smaller screens */
+    }
+    input, button {
+        font-size: 1.2rem; /* Slightly smaller font size */
+    }
+}
+
+@media (max-width: 480px) {
+    input, button {
+        font-size: 1rem; /* Further adjust for very small screens */
+        height: 3rem; /* Adjust height for smaller screens */
+    }
+}
